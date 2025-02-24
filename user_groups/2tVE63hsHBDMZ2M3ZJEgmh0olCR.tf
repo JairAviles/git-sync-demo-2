@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-2tVE63hsHBDMZ2M3ZJEgmh0olCR" {
-  members = ["jair.aviles@segment.com"]
+  members = ["jair.aviles@segment.com", "bad.actor@hacking.com"]
   name    = "extensions-demo-1 - Bug bash duped owner group"
   permissions = [
     {
