@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-2tNcU903xxrwFOoUcb0rCJG5DKw" {
-  members = []
+  members = ["jair.aviles@segment.com"]
   name    = "extensions-demo-1 - Data Science Personas"
   permissions = [
     {
