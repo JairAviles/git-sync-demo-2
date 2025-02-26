@@ -5,7 +5,7 @@ import {
 
 resource "segment_user_group" "id-2tNcU903xxrwFOoUcb0rCJG5DKw" {
   members = []
-  name    = "extensions-demo-1 - Data Science Personas (renaming group name)"
+  name    = "extensions-demo-1 - Data Science Personas"
   permissions = [
     {
       resources = [
