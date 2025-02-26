@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-2tNdWChHJwzTJQfu3asOemCvuyC" {
-  members = []
+  members = ["jair.aviles@segment.com"]
   name    = "extensions-demo-1 - End User Privacy Admin"
   permissions = [
     {
