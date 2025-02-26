@@ -4,8 +4,8 @@ import {
 }
 
 resource "segment_user_group" "id-2tYRaNlBoWndJvdKLANKpJSedgJ" {
-  members = []
-  name    = "APICS-3020"
+  members = ["jair.aviles@segment.com"]
+  name    = "Segment : APICS-3020"
   permissions = [
     {
       resources = [
