@@ -5,7 +5,7 @@ import {
 
 resource "segment_user_group" "id-2talvWZVkU1yog0hpqWNYml2kzx" {
   members = ["jair.aviles@segment.com"]
-  name    = "Segment : extensions-demo-1 - Workspace Owner"
+  name    = "Segment : extensions-demo-1 - Workspace Owner (Updated)"
   permissions = [
     {
       resources = [
