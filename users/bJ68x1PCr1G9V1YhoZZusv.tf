@@ -9,10 +9,10 @@ resource "segment_user" "id-bJ68x1PCr1G9V1YhoZZusv" {
     {
       resources = [
         {
-          id = "j7RrR1hLgqQhqYYV9rNRB1"
+          id = "9uXW1jxiwcBVdYmovz4gki"
           labels = [
           ]
-          type = "SOURCE"
+          type = "WORKSPACE"
         },
       ]
       role_id = "1WDUuSF1kN1xis2lp09RVKOsnnL"
