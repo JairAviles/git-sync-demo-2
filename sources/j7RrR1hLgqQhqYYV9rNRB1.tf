@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_source" "id-j7RrR1hLgqQhqYYV9rNRB1" {
-  enabled = true
+  enabled = false
   labels  = null
   metadata = {
     id = "IqDTy1TpoU"
