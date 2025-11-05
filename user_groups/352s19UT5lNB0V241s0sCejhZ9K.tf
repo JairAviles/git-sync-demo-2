@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-352s19UT5lNB0V241s0sCejhZ9K" {
-  members = ["jeusebio@twilio.com"]
+  members = []
   name    = "extensions-demo-1 - Workspace Owner"
   permissions = [
     {
@@ -16,7 +16,7 @@ resource "segment_user_group" "id-352s19UT5lNB0V241s0sCejhZ9K" {
           type = "WORKSPACE"
         },
       ]
-      role_id = "1aEWAcU0fArxScocwH9xxLgW7r3"
+      role_id = "1WDUuRLxv84rrfCNUwvkrRtkxnS"
     },
   ]
 }
