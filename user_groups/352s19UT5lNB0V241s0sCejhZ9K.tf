@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-352s19UT5lNB0V241s0sCejhZ9K" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo-1 - Workspace Owner"
   permissions = [
     {
