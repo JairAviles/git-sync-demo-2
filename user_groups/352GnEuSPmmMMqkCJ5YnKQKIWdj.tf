@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-352GnEuSPmmMMqkCJ5YnKQKIWdj" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo-1 - Functions Admin"
   permissions = [
     {
@@ -16,24 +16,18 @@ resource "segment_user_group" "id-352GnEuSPmmMMqkCJ5YnKQKIWdj" {
           type = "WORKSPACE"
         },
       ]
-      role_id = "1ZxBLEwfZgYG3olVPxkc7e35Wue"
+      role_id = "1WDUuUTNtbdpyJV0KPQzlHVkewe"
     },
     {
       resources = [
         {
-          id = "dfn_6914af6a9afd4af402607d9c"
+          id = "9uXW1jxiwcBVdYmovz4gki"
           labels = [
           ]
-          type = "FUNCTION"
-        },
-        {
-          id = "sfnc_pIbLB6mkCZ"
-          labels = [
-          ]
-          type = "FUNCTION"
+          type = "WORKSPACE"
         },
       ]
-      role_id = "1WDUuUTNtbdpyJV0KPQzlHVkewe"
+      role_id = "1ZxBLEwfZgYG3olVPxkc7e35Wue"
     },
   ]
 }
