@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-35wLX8UlrpXrOL4icLOpZcpwNjD" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo - Observability Admin PII"
   permissions = [
     {
