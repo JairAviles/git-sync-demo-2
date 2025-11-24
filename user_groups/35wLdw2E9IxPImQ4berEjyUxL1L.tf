@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-35wLdw2E9IxPImQ4berEjyUxL1L" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo - Observability Read-only"
   permissions = [
     {
