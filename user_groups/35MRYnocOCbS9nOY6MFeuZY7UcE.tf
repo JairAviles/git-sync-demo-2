@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-35MRYnocOCbS9nOY6MFeuZY7UcE" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo-1 - Source Admin"
   permissions = [
     {
@@ -12,6 +12,10 @@ resource "segment_user_group" "id-35MRYnocOCbS9nOY6MFeuZY7UcE" {
         {
           id = "9uXW1jxiwcBVdYmovz4gki"
           labels = [
+            {
+              key   = "map_env"
+              value = "prod"
+            },
           ]
           type = "WORKSPACE"
         },
