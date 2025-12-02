@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_user_group" "id-36GaNzWm0Vb3XUJ7wwlzYbu9bBi" {
-  members = []
+  members = ["jeusebio@twilio.com"]
   name    = "extensions-demo-1 - Unify and Engage Admin"
   permissions = [
     {
