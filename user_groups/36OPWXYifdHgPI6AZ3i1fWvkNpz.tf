@@ -4,14 +4,18 @@ import {
 }
 
 resource "segment_user_group" "id-36OPWXYifdHgPI6AZ3i1fWvkNpz" {
-  members = []
-  name    = "APICS-3861 with labels"
+  members = ["jeusebio@twilio.com"]
+  name    = "APICS-3861 with label"
   permissions = [
     {
       resources = [
         {
           id = "9uXW1jxiwcBVdYmovz4gki"
           labels = [
+            {
+              key   = "environment"
+              value = "prod"
+            },
             {
               key   = "map_env"
               value = "prod"
