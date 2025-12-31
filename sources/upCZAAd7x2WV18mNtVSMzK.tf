@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_source" "id-upCZAAd7x2WV18mNtVSMzK" {
-  enabled = true
+  enabled = false
   labels = [
     {
       key   = "map_env"
