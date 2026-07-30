@@ -9,28 +9,13 @@ resource "segment_user" "id-btxztmK1k8QB4CJAcNzYVB" {
     {
       resources = [
         {
-          id = "9uXW1jxiwcBVdYmovz4gki"
-          labels = [
-            {
-              key   = "environment"
-              value = "prod"
-            },
-          ]
-          type = "WORKSPACE"
-        },
-      ]
-      role_id = "1WDUuSF1kN1xis2lp09RVKOsnnL"
-    },
-    {
-      resources = [
-        {
-          id = "9uXW1jxiwcBVdYmovz4gki"
+          id = "spa_q92XgfYpzGR44wqzQrKHHL"
           labels = [
           ]
-          type = "WORKSPACE"
+          type = "SPACE"
         },
       ]
-      role_id = "1aEWAcU0fArxScocwH9xxLgW7r3"
+      role_id = "1WDUuZXZWg6JuU6RKhEhz8nEa1G"
     },
   ]
 }
