@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_source" "id-3r1WUM83Rz4RBufpzSrtbQ" {
-  enabled = true
+  enabled = false
   labels = [
     {
       key   = "environment"
